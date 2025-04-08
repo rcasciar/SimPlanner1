@@ -1,0 +1,579 @@
+=== Avvio algoritmo di scheduling ===
+Numero di studenti: 75
+Numero di laboratori: 16
+Numero di aule: 6
+
+Utilizzo gruppi fissi per tutti i laboratori
+
+Gruppi standard (A-E) per laboratori normali:
+  Gruppo A: 15 studenti - IDs: [1, 2, 3, 4, 5]...
+  Gruppo B: 15 studenti - IDs: [16, 17, 18, 19, 20]...
+  Gruppo C: 15 studenti - IDs: [31, 32, 33, 34, 35]...
+  Gruppo D: 15 studenti - IDs: [46, 47, 48, 49, 50]...
+  Gruppo E: 15 studenti - IDs: [61, 62, 63, 64, 65]...
+
+Gruppi a capacità ridotta (1-8) per laboratori piccoli:
+  Gruppo 1: 10 studenti - IDs: [1, 2, 3, 4, 5]...
+  Gruppo 2: 10 studenti - IDs: [11, 12, 13, 14, 15]...
+  Gruppo 3: 10 studenti - IDs: [21, 22, 23, 24, 25]...
+  Gruppo 4: 9 studenti - IDs: [31, 32, 33, 34, 35]...
+  Gruppo 5: 9 studenti - IDs: [40, 41, 42, 43, 44]...
+  Gruppo 6: 9 studenti - IDs: [49, 50, 51, 52, 53]...
+  Gruppo 7: 9 studenti - IDs: [58, 59, 60, 61, 62]...
+  Gruppo 8: 9 studenti - IDs: [67, 68, 69, 70, 71]...
+
+Associazione laboratori-gruppi:
+  Igiene mani: utilizzo gruppi standard (A-E)
+  Gestione DPI: utilizzo gruppi standard (A-E)
+  Ergonomia: utilizzo gruppi standard (A-E)
+  Mobilizzazione: utilizzo gruppi standard (A-E)
+  Cura di sé: utilizzo gruppi standard (A-E)
+  Gestione ferita chirurgica: utilizzo gruppi standard (A-E)
+  Gestione lesioni cutanee: utilizzo gruppi standard (A-E)
+  Rilevazione PV: utilizzo gruppi standard (A-E)
+  Gestione dispositivi di eliminazione urinaria: utilizzo gruppi standard (A-E)
+  Venipuntura: utilizzo gruppi standard (A-E)
+  Ragionamento diagnostico: utilizzo gruppi standard (A-E)
+  Valutazione ABC: utilizzo gruppi standard (A-E)
+  Gestione mobilizzazione: utilizzo gruppi ridotti (1-8)
+  Gestione terapia: utilizzo gruppi ridotti (1-8)
+  Valutazione respiratoria: utilizzo gruppi ridotti (1-8)
+  Valutazione cardiocircolatoria: utilizzo gruppi ridotti (1-8)
+Utilizzo algoritmo di scheduling con gruppi fissi
+Pianificazione laboratorio Igiene mani - 5 gruppi
+Pianificazione gruppo A per lab Igiene mani
+  * Gruppo A programmato per lab Igiene mani
+    Giorno 0, 08:30-11:00
+    Aula: Florence
+
+Pianificazione gruppo B per lab Igiene mani
+  * Gruppo B programmato per lab Igiene mani
+    Giorno 0, 08:30-11:00
+    Aula: Esercitazione 1
+
+Pianificazione gruppo C per lab Igiene mani
+  * Gruppo C programmato per lab Igiene mani
+    Giorno 0, 08:30-11:00
+    Aula: Esercitazione 2
+
+Pianificazione gruppo D per lab Igiene mani
+  * Gruppo D programmato per lab Igiene mani
+    Giorno 0, 08:30-11:00
+    Aula: Leininger 1
+
+Pianificazione gruppo E per lab Igiene mani
+  * Gruppo E programmato per lab Igiene mani
+    Giorno 0, 08:30-11:00
+    Aula: Leininger 2
+
+Pianificazione laboratorio Gestione DPI - 5 gruppi
+Pianificazione gruppo A per lab Gestione DPI
+  * Gruppo A programmato per lab Gestione DPI
+    Giorno 0, 11:10-13:40
+    Aula: Florence
+
+Pianificazione gruppo B per lab Gestione DPI
+  * Gruppo B programmato per lab Gestione DPI
+    Giorno 0, 11:10-13:40
+    Aula: Esercitazione 1
+
+Pianificazione gruppo C per lab Gestione DPI
+  * Gruppo C programmato per lab Gestione DPI
+    Giorno 0, 11:10-13:40
+    Aula: Esercitazione 2
+
+Pianificazione gruppo D per lab Gestione DPI
+  * Gruppo D programmato per lab Gestione DPI
+    Giorno 0, 11:10-13:40
+    Aula: Leininger 1
+
+Pianificazione gruppo E per lab Gestione DPI
+  * Gruppo E programmato per lab Gestione DPI
+    Giorno 0, 11:10-13:40
+    Aula: Leininger 2
+
+Pianificazione laboratorio Ergonomia - 5 gruppi
+Pianificazione gruppo A per lab Ergonomia
+  * Gruppo A programmato per lab Ergonomia
+    Giorno 0, 14:10-16:40
+    Aula: Florence
+
+Pianificazione gruppo B per lab Ergonomia
+  * Gruppo B programmato per lab Ergonomia
+    Giorno 0, 14:10-16:40
+    Aula: Esercitazione 1
+
+Pianificazione gruppo C per lab Ergonomia
+  * Gruppo C programmato per lab Ergonomia
+    Giorno 0, 14:10-16:40
+    Aula: Esercitazione 2
+
+Pianificazione gruppo D per lab Ergonomia
+  * Gruppo D programmato per lab Ergonomia
+    Giorno 0, 14:10-16:40
+    Aula: Leininger 1
+
+Pianificazione gruppo E per lab Ergonomia
+  * Gruppo E programmato per lab Ergonomia
+    Giorno 0, 14:10-16:40
+    Aula: Leininger 2
+
+Pianificazione laboratorio Mobilizzazione - 5 gruppi
+Pianificazione gruppo A per lab Mobilizzazione
+IMPOSSIBILE pianificare gruppo A per lab Mobilizzazione
+
+Pianificazione gruppo B per lab Mobilizzazione
+IMPOSSIBILE pianificare gruppo B per lab Mobilizzazione
+
+Pianificazione gruppo C per lab Mobilizzazione
+IMPOSSIBILE pianificare gruppo C per lab Mobilizzazione
+
+Pianificazione gruppo D per lab Mobilizzazione
+IMPOSSIBILE pianificare gruppo D per lab Mobilizzazione
+
+Pianificazione gruppo E per lab Mobilizzazione
+IMPOSSIBILE pianificare gruppo E per lab Mobilizzazione
+
+Pianificazione laboratorio Cura di sé - 5 gruppi
+Pianificazione gruppo A per lab Cura di sé
+IMPOSSIBILE pianificare gruppo A per lab Cura di sé
+
+Pianificazione gruppo B per lab Cura di sé
+IMPOSSIBILE pianificare gruppo B per lab Cura di sé
+
+Pianificazione gruppo C per lab Cura di sé
+IMPOSSIBILE pianificare gruppo C per lab Cura di sé
+
+Pianificazione gruppo D per lab Cura di sé
+IMPOSSIBILE pianificare gruppo D per lab Cura di sé
+
+Pianificazione gruppo E per lab Cura di sé
+IMPOSSIBILE pianificare gruppo E per lab Cura di sé
+
+Pianificazione laboratorio Gestione ferita chirurgica - 5 gruppi
+Pianificazione gruppo A per lab Gestione ferita chirurgica
+  * Gruppo A programmato per lab Gestione ferita chirurgica
+    Giorno 1, 08:30-11:00
+    Aula: Florence
+
+Pianificazione gruppo B per lab Gestione ferita chirurgica
+  * Gruppo B programmato per lab Gestione ferita chirurgica
+    Giorno 1, 08:30-11:00
+    Aula: Esercitazione 1
+
+Pianificazione gruppo C per lab Gestione ferita chirurgica
+  * Gruppo C programmato per lab Gestione ferita chirurgica
+    Giorno 1, 08:30-11:00
+    Aula: Esercitazione 2
+
+Pianificazione gruppo D per lab Gestione ferita chirurgica
+  * Gruppo D programmato per lab Gestione ferita chirurgica
+    Giorno 1, 08:30-11:00
+    Aula: Leininger 1
+
+Pianificazione gruppo E per lab Gestione ferita chirurgica
+  * Gruppo E programmato per lab Gestione ferita chirurgica
+    Giorno 1, 08:30-11:00
+    Aula: Leininger 2
+
+Pianificazione laboratorio Gestione lesioni cutanee - 5 gruppi
+Pianificazione gruppo A per lab Gestione lesioni cutanee
+  * Gruppo A programmato per lab Gestione lesioni cutanee
+    Giorno 1, 11:10-13:40
+    Aula: Florence
+
+Pianificazione gruppo B per lab Gestione lesioni cutanee
+  * Gruppo B programmato per lab Gestione lesioni cutanee
+    Giorno 1, 11:10-13:40
+    Aula: Esercitazione 1
+
+Pianificazione gruppo C per lab Gestione lesioni cutanee
+  * Gruppo C programmato per lab Gestione lesioni cutanee
+    Giorno 1, 11:10-13:40
+    Aula: Esercitazione 2
+
+Pianificazione gruppo D per lab Gestione lesioni cutanee
+  * Gruppo D programmato per lab Gestione lesioni cutanee
+    Giorno 1, 11:10-13:40
+    Aula: Leininger 1
+
+Pianificazione gruppo E per lab Gestione lesioni cutanee
+  * Gruppo E programmato per lab Gestione lesioni cutanee
+    Giorno 1, 11:10-13:40
+    Aula: Leininger 2
+
+Pianificazione laboratorio Rilevazione PV - 5 gruppi
+Pianificazione gruppo A per lab Rilevazione PV
+IMPOSSIBILE pianificare gruppo A per lab Rilevazione PV
+
+Pianificazione gruppo B per lab Rilevazione PV
+IMPOSSIBILE pianificare gruppo B per lab Rilevazione PV
+
+Pianificazione gruppo C per lab Rilevazione PV
+IMPOSSIBILE pianificare gruppo C per lab Rilevazione PV
+
+Pianificazione gruppo D per lab Rilevazione PV
+IMPOSSIBILE pianificare gruppo D per lab Rilevazione PV
+
+Pianificazione gruppo E per lab Rilevazione PV
+IMPOSSIBILE pianificare gruppo E per lab Rilevazione PV
+
+Pianificazione laboratorio Gestione dispositivi di eliminazione urinaria - 5 gruppi
+Pianificazione gruppo A per lab Gestione dispositivi di eliminazione urinaria
+IMPOSSIBILE pianificare gruppo A per lab Gestione dispositivi di eliminazione urinaria
+
+Pianificazione gruppo B per lab Gestione dispositivi di eliminazione urinaria
+IMPOSSIBILE pianificare gruppo B per lab Gestione dispositivi di eliminazione urinaria
+
+Pianificazione gruppo C per lab Gestione dispositivi di eliminazione urinaria
+IMPOSSIBILE pianificare gruppo C per lab Gestione dispositivi di eliminazione urinaria
+
+Pianificazione gruppo D per lab Gestione dispositivi di eliminazione urinaria
+IMPOSSIBILE pianificare gruppo D per lab Gestione dispositivi di eliminazione urinaria
+
+Pianificazione gruppo E per lab Gestione dispositivi di eliminazione urinaria
+IMPOSSIBILE pianificare gruppo E per lab Gestione dispositivi di eliminazione urinaria
+
+Pianificazione laboratorio Venipuntura - 5 gruppi
+Pianificazione gruppo A per lab Venipuntura
+  * Gruppo A programmato per lab Venipuntura
+    Giorno 1, 14:10-16:40
+    Aula: Florence
+
+Pianificazione gruppo B per lab Venipuntura
+  * Gruppo B programmato per lab Venipuntura
+    Giorno 1, 14:10-16:40
+    Aula: Esercitazione 1
+
+Pianificazione gruppo C per lab Venipuntura
+  * Gruppo C programmato per lab Venipuntura
+    Giorno 1, 14:10-16:40
+    Aula: Esercitazione 2
+
+Pianificazione gruppo D per lab Venipuntura
+  * Gruppo D programmato per lab Venipuntura
+    Giorno 1, 14:10-16:40
+    Aula: Leininger 1
+
+Pianificazione gruppo E per lab Venipuntura
+  * Gruppo E programmato per lab Venipuntura
+    Giorno 1, 14:10-16:40
+    Aula: Leininger 2
+
+Pianificazione laboratorio Ragionamento diagnostico - 5 gruppi
+Pianificazione gruppo A per lab Ragionamento diagnostico
+IMPOSSIBILE pianificare gruppo A per lab Ragionamento diagnostico
+
+Pianificazione gruppo B per lab Ragionamento diagnostico
+IMPOSSIBILE pianificare gruppo B per lab Ragionamento diagnostico
+
+Pianificazione gruppo C per lab Ragionamento diagnostico
+IMPOSSIBILE pianificare gruppo C per lab Ragionamento diagnostico
+
+Pianificazione gruppo D per lab Ragionamento diagnostico
+IMPOSSIBILE pianificare gruppo D per lab Ragionamento diagnostico
+
+Pianificazione gruppo E per lab Ragionamento diagnostico
+IMPOSSIBILE pianificare gruppo E per lab Ragionamento diagnostico
+
+Pianificazione laboratorio Valutazione ABC - 5 gruppi
+Pianificazione gruppo A per lab Valutazione ABC
+  * Gruppo A programmato per lab Valutazione ABC
+    Giorno 2, 08:30-11:00
+    Aula: Florence
+
+Pianificazione gruppo B per lab Valutazione ABC
+  * Gruppo B programmato per lab Valutazione ABC
+    Giorno 2, 08:30-11:00
+    Aula: Esercitazione 1
+
+Pianificazione gruppo C per lab Valutazione ABC
+  * Gruppo C programmato per lab Valutazione ABC
+    Giorno 2, 08:30-11:00
+    Aula: Esercitazione 2
+
+Pianificazione gruppo D per lab Valutazione ABC
+  * Gruppo D programmato per lab Valutazione ABC
+    Giorno 2, 08:30-11:00
+    Aula: Leininger 1
+
+Pianificazione gruppo E per lab Valutazione ABC
+  * Gruppo E programmato per lab Valutazione ABC
+    Giorno 2, 08:30-11:00
+    Aula: Leininger 2
+
+Pianificazione laboratorio Gestione mobilizzazione - 8 gruppi
+Pianificazione gruppo 1 per lab Gestione mobilizzazione
+  * Gruppo 1 programmato per lab Gestione mobilizzazione
+    Giorno 2, 11:10-13:40
+    Aula: Florence
+
+Pianificazione gruppo 2 per lab Gestione mobilizzazione
+  * Gruppo 2 programmato per lab Gestione mobilizzazione
+    Giorno 2, 11:10-13:40
+    Aula: Esercitazione 1
+
+Pianificazione gruppo 3 per lab Gestione mobilizzazione
+  * Gruppo 3 programmato per lab Gestione mobilizzazione
+    Giorno 2, 11:10-13:40
+    Aula: Esercitazione 2
+
+Pianificazione gruppo 4 per lab Gestione mobilizzazione
+  * Gruppo 4 programmato per lab Gestione mobilizzazione
+    Giorno 2, 14:10-16:40
+    Aula: Florence
+
+Pianificazione gruppo 5 per lab Gestione mobilizzazione
+  * Gruppo 5 programmato per lab Gestione mobilizzazione
+    Giorno 2, 14:10-16:40
+    Aula: Esercitazione 1
+
+Pianificazione gruppo 6 per lab Gestione mobilizzazione
+  * Gruppo 6 programmato per lab Gestione mobilizzazione
+    Giorno 2, 14:10-16:40
+    Aula: Esercitazione 2
+
+Pianificazione gruppo 7 per lab Gestione mobilizzazione
+  * Gruppo 7 programmato per lab Gestione mobilizzazione
+    Giorno 3, 08:30-11:00
+    Aula: Florence
+
+Pianificazione gruppo 8 per lab Gestione mobilizzazione
+  * Gruppo 8 programmato per lab Gestione mobilizzazione
+    Giorno 3, 08:30-11:00
+    Aula: Esercitazione 1
+
+Pianificazione laboratorio Gestione terapia - 8 gruppi
+Pianificazione gruppo 1 per lab Gestione terapia
+  * Gruppo 1 programmato per lab Gestione terapia
+    Giorno 3, 08:30-11:00
+    Aula: Esercitazione 2
+
+Pianificazione gruppo 2 per lab Gestione terapia
+  * Gruppo 2 programmato per lab Gestione terapia
+    Giorno 3, 11:10-13:40
+    Aula: Florence
+
+Pianificazione gruppo 3 per lab Gestione terapia
+  * Gruppo 3 programmato per lab Gestione terapia
+    Giorno 3, 11:10-13:40
+    Aula: Esercitazione 1
+
+Pianificazione gruppo 4 per lab Gestione terapia
+  * Gruppo 4 programmato per lab Gestione terapia
+    Giorno 3, 11:10-13:40
+    Aula: Esercitazione 2
+
+Pianificazione gruppo 5 per lab Gestione terapia
+  * Gruppo 5 programmato per lab Gestione terapia
+    Giorno 3, 14:10-16:40
+    Aula: Florence
+
+Pianificazione gruppo 6 per lab Gestione terapia
+  * Gruppo 6 programmato per lab Gestione terapia
+    Giorno 3, 14:10-16:40
+    Aula: Esercitazione 1
+
+Pianificazione gruppo 7 per lab Gestione terapia
+  * Gruppo 7 programmato per lab Gestione terapia
+    Giorno 3, 14:10-16:40
+    Aula: Esercitazione 2
+
+Pianificazione gruppo 8 per lab Gestione terapia
+  * Gruppo 8 programmato per lab Gestione terapia
+    Giorno 4, 08:30-11:00
+    Aula: Florence
+
+Pianificazione laboratorio Valutazione respiratoria - 8 gruppi
+Pianificazione gruppo 1 per lab Valutazione respiratoria
+  * Gruppo 1 programmato per lab Valutazione respiratoria
+    Giorno 4, 08:30-11:00
+    Aula: Esercitazione 1
+
+Pianificazione gruppo 2 per lab Valutazione respiratoria
+  * Gruppo 2 programmato per lab Valutazione respiratoria
+    Giorno 4, 08:30-11:00
+    Aula: Esercitazione 2
+
+Pianificazione gruppo 3 per lab Valutazione respiratoria
+  * Gruppo 3 programmato per lab Valutazione respiratoria
+    Giorno 4, 11:10-13:40
+    Aula: Florence
+
+Pianificazione gruppo 4 per lab Valutazione respiratoria
+  * Gruppo 4 programmato per lab Valutazione respiratoria
+    Giorno 4, 11:10-13:40
+    Aula: Esercitazione 1
+
+Pianificazione gruppo 5 per lab Valutazione respiratoria
+  * Gruppo 5 programmato per lab Valutazione respiratoria
+    Giorno 4, 11:10-13:40
+    Aula: Esercitazione 2
+
+Pianificazione gruppo 6 per lab Valutazione respiratoria
+  * Gruppo 6 programmato per lab Valutazione respiratoria
+    Giorno 4, 14:10-16:40
+    Aula: Florence
+
+Pianificazione gruppo 7 per lab Valutazione respiratoria
+  * Gruppo 7 programmato per lab Valutazione respiratoria
+    Giorno 4, 14:10-16:40
+    Aula: Esercitazione 1
+
+Pianificazione gruppo 8 per lab Valutazione respiratoria
+  * Gruppo 8 programmato per lab Valutazione respiratoria
+    Giorno 4, 14:10-16:40
+    Aula: Esercitazione 2
+
+Pianificazione laboratorio Valutazione cardiocircolatoria - 8 gruppi
+Pianificazione gruppo 1 per lab Valutazione cardiocircolatoria
+  * Gruppo 1 programmato per lab Valutazione cardiocircolatoria
+    Giorno 5, 08:30-11:00
+    Aula: Florence
+
+Pianificazione gruppo 2 per lab Valutazione cardiocircolatoria
+  * Gruppo 2 programmato per lab Valutazione cardiocircolatoria
+    Giorno 5, 08:30-11:00
+    Aula: Esercitazione 1
+
+Pianificazione gruppo 3 per lab Valutazione cardiocircolatoria
+  * Gruppo 3 programmato per lab Valutazione cardiocircolatoria
+    Giorno 5, 08:30-11:00
+    Aula: Esercitazione 2
+
+Pianificazione gruppo 4 per lab Valutazione cardiocircolatoria
+  * Gruppo 4 programmato per lab Valutazione cardiocircolatoria
+    Giorno 5, 11:10-13:40
+    Aula: Florence
+
+Pianificazione gruppo 5 per lab Valutazione cardiocircolatoria
+  * Gruppo 5 programmato per lab Valutazione cardiocircolatoria
+    Giorno 5, 11:10-13:40
+    Aula: Esercitazione 1
+
+Pianificazione gruppo 6 per lab Valutazione cardiocircolatoria
+  * Gruppo 6 programmato per lab Valutazione cardiocircolatoria
+    Giorno 5, 11:10-13:40
+    Aula: Esercitazione 2
+
+Pianificazione gruppo 7 per lab Valutazione cardiocircolatoria
+  * Gruppo 7 programmato per lab Valutazione cardiocircolatoria
+    Giorno 5, 14:10-16:40
+    Aula: Florence
+
+Pianificazione gruppo 8 per lab Valutazione cardiocircolatoria
+  * Gruppo 8 programmato per lab Valutazione cardiocircolatoria
+    Giorno 5, 14:10-16:40
+    Aula: Esercitazione 1
+
+Status completamento per laboratori e gruppi:
+Sessioni programmate: 67/92 (72.8%)
+
+Lab Igiene mani:
+  Gruppo A: ✓
+  Gruppo B: ✓
+  Gruppo C: ✓
+  Gruppo D: ✓
+  Gruppo E: ✓
+Lab Gestione DPI:
+  Gruppo A: ✓
+  Gruppo B: ✓
+  Gruppo C: ✓
+  Gruppo D: ✓
+  Gruppo E: ✓
+Lab Ergonomia:
+  Gruppo A: ✓
+  Gruppo B: ✓
+  Gruppo C: ✓
+  Gruppo D: ✓
+  Gruppo E: ✓
+Lab Mobilizzazione:
+  Gruppo A: ✗
+  Gruppo B: ✗
+  Gruppo C: ✗
+  Gruppo D: ✗
+  Gruppo E: ✗
+Lab Cura di sé:
+  Gruppo A: ✗
+  Gruppo B: ✗
+  Gruppo C: ✗
+  Gruppo D: ✗
+  Gruppo E: ✗
+Lab Gestione ferita chirurgica:
+  Gruppo A: ✓
+  Gruppo B: ✓
+  Gruppo C: ✓
+  Gruppo D: ✓
+  Gruppo E: ✓
+Lab Gestione lesioni cutanee:
+  Gruppo A: ✓
+  Gruppo B: ✓
+  Gruppo C: ✓
+  Gruppo D: ✓
+  Gruppo E: ✓
+Lab Rilevazione PV:
+  Gruppo A: ✗
+  Gruppo B: ✗
+  Gruppo C: ✗
+  Gruppo D: ✗
+  Gruppo E: ✗
+Lab Gestione dispositivi di eliminazione urinaria:
+  Gruppo A: ✗
+  Gruppo B: ✗
+  Gruppo C: ✗
+  Gruppo D: ✗
+  Gruppo E: ✗
+Lab Venipuntura:
+  Gruppo A: ✓
+  Gruppo B: ✓
+  Gruppo C: ✓
+  Gruppo D: ✓
+  Gruppo E: ✓
+Lab Ragionamento diagnostico:
+  Gruppo A: ✗
+  Gruppo B: ✗
+  Gruppo C: ✗
+  Gruppo D: ✗
+  Gruppo E: ✗
+Lab Valutazione ABC:
+  Gruppo A: ✓
+  Gruppo B: ✓
+  Gruppo C: ✓
+  Gruppo D: ✓
+  Gruppo E: ✓
+Lab Gestione mobilizzazione:
+  Gruppo 1: ✓
+  Gruppo 2: ✓
+  Gruppo 3: ✓
+  Gruppo 4: ✓
+  Gruppo 5: ✓
+  Gruppo 6: ✓
+  Gruppo 7: ✓
+  Gruppo 8: ✓
+Lab Gestione terapia:
+  Gruppo 1: ✓
+  Gruppo 2: ✓
+  Gruppo 3: ✓
+  Gruppo 4: ✓
+  Gruppo 5: ✓
+  Gruppo 6: ✓
+  Gruppo 7: ✓
+  Gruppo 8: ✓
+Lab Valutazione respiratoria:
+  Gruppo 1: ✓
+  Gruppo 2: ✓
+  Gruppo 3: ✓
+  Gruppo 4: ✓
+  Gruppo 5: ✓
+  Gruppo 6: ✓
+  Gruppo 7: ✓
+  Gruppo 8: ✓
+Lab Valutazione cardiocircolatoria:
+  Gruppo 1: ✓
+  Gruppo 2: ✓
+  Gruppo 3: ✓
+  Gruppo 4: ✓
+  Gruppo 5: ✓
+  Gruppo 6: ✓
+  Gruppo 7: ✓
+  Gruppo 8: ✓
