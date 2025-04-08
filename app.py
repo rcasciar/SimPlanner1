@@ -24,7 +24,7 @@ from ui_components import (create_navbar, section_header, create_preview_card,
                           create_compact_mode_toggle, load_css_animation,
                           get_download_link, display_event_log, create_tutorial_steps,
                           log_event, get_event_log)
-from pdf_export import export_schedule_pdf_weasyprint, export_schedule_pdf_reportlab, export_student_groups_pdf
+from pdf_export import export_schedule_pdf_reportlab, export_student_groups_pdf
 from valutazione import valutazione_interface
 from attendance import attendance_interface
 from backup_manager import backup_interface
