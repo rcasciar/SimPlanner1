@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+docx
+openpyxl
+plotly
+python-docx
+reportlab
+streamlit-aggrid
+weasyprint
+pdfkit
